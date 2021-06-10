@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "corejs": 3.14, // Version de corejs actual
+      "useBuiltIns": "usage" // Incluye los polyfills al usar codigo moderno
+    }],
+    ["@babel/preset-react", {
+      "runtime": "automatic" // No es necesario importar en todos los archivos React
+    }]
+  ],
+  "plugins": []
+}

@@ -1,0 +1,49 @@
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap');
+// $font-stack: 'Abel', sans-serif;
+$font-stack: 'Inter', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font: 100% $font-stack;
+  background-color: #fff;
+}
+
+.segregation_table {
+  margin: 15px 25px 0px;
+  background-color: #c3d7ff;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.table_row {
+  display: grid;
+  grid-template-columns: 250px 230px 150px 150px 1fr;
+  p,
+  h3 {
+    padding: 15px 0px;
+  }
+}
+
+.table_title {
+  h3 {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+  }
+}
+
+.table_cell {
+  border-top: 1.5px solid #eee;
+  p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
